@@ -1,0 +1,270 @@
+@charset 'utf-8';
+@use "mixins";
+@use "common";
+@use "fonts";
+@use "variables";
+
+// HOME PAGE
+
+.banner-section {
+  padding: 80px 0;
+  .banner-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .banner-left {
+      width: 50%;
+      .bannerTxt-container {
+        max-width: 510px;
+        .banner-heading {
+          margin-bottom: 20px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 67px;
+          line-height: 110%;
+          /* or 74px */
+
+          display: flex;
+          align-items: center;
+          text-transform: capitalize;
+
+          /* White */
+
+          color: #ffffff;
+        }
+        .description {
+          margin-bottom: 30px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 160%;
+          /* or 35px */
+
+          text-transform: capitalize;
+
+          /* White */
+
+          color: #ffffff;
+        }
+        .btn-getStarted {
+          margin-bottom: 30px;
+        }
+        .statistics-container {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .stat {
+            width: calc((100% - 60px) / 3);
+            display: flex;
+            flex-direction: column;
+            .stat-number {
+              font-family: "Space Mono";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 28px;
+              line-height: 140%;
+              /* or 39px */
+
+              display: flex;
+              align-items: center;
+              text-transform: capitalize;
+
+              /* White */
+
+              color: #ffffff;
+            }
+            .stat-txt {
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 23.99px;
+              line-height: 160%;
+              /* or 38px */
+
+              text-transform: capitalize;
+
+              /* White */
+
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    .banner-right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .banner-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card-img {
+          width: 510px;
+          height: 401px;
+        }
+        .card-footer {
+          width: 100%;
+          padding: 22px 20px;
+          display: flex;
+          flex-direction: column;
+          background: #3b3b3b;
+          border-radius: 0px 0px 20px 20px;
+          .footer-heading {
+            margin-bottom: 10px;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+            /* identical to box height, or 31px */
+
+            text-transform: capitalize;
+
+            color: #ffffff;
+          }
+          .artist-tag {
+            display: flex;
+            align-items: center;
+            .artist-avatar {
+              width: 24px;
+              height: 24px;
+              margin-right: 12px;
+            }
+            .artist-name {
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 140%;
+              /* or 22px */
+
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.trendingCollection-section {
+  padding: 80px 0;
+  .trendingCollection-content {
+    .section-heading {
+      margin-bottom: 10px;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 120%;
+      /* identical to box height, or 46px */
+
+      text-transform: capitalize;
+
+      /* White */
+
+      color: #ffffff;
+    }
+    .section-subHeading {
+      margin-bottom: 60px;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+      /* or 35px */
+
+      text-transform: capitalize;
+
+      /* White */
+
+      color: #ffffff;
+    }
+    .collectionCards-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .collection-card {
+        width: calc((100% - 60px) / 3);
+        .primary-img {
+          margin-bottom: 15px;
+          width: 330px;
+          height: 330px;
+          object-fit: cover;
+        }
+        .secondaryImg-container {
+          margin-bottom: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .secondary-img {
+            width: calc((100% - 30px) / 3);
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+          }
+          .full-collection {
+            background: #a259ff;
+            border-radius: 20px;
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 160%;
+            /* or 35px */
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            text-transform: capitalize;
+
+            color: #ffffff;
+          }
+        }
+        .card-footer {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          .footer-heading {
+            margin-bottom: 10px;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+            /* identical to box height, or 31px */
+
+            text-transform: capitalize;
+
+            color: #ffffff;
+          }
+          .artist-tag {
+            display: flex;
+            align-items: center;
+            .artist-avatar {
+              width: 24px;
+              height: 24px;
+              margin-right: 12px;
+            }
+            .artist-name {
+              flex-grow: 1;
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 140%;
+              /* or 22px */
+
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

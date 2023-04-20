@@ -1,0 +1,372 @@
+/* -----------------------------------------------------------
+	common
+----------------------------------------------------------- */
+body {
+  background-color: #2b2b2b;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+br {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button,
+.btn {
+  transition: all 0.4s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+.over {
+  transition: all 0.4s ease;
+}
+.over:hover {
+  opacity: 0.7;
+}
+
+.container {
+  min-width: 1050px;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.list-style-none {
+  list-style: none !important;
+}
+
+.text-primary {
+  color: #2c5b90 !important;
+}
+
+.btn-primary {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  background: #a259ff;
+  border-radius: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary svg {
+  margin-right: 12px;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.banner-section {
+  padding: 80px 0;
+}
+.banner-section .banner-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.banner-section .banner-content .banner-left {
+  width: 50%;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container {
+  max-width: 510px;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container .banner-heading {
+  margin-bottom: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 110%;
+  /* or 74px */
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container .description {
+  margin-bottom: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container .btn-getStarted {
+  margin-bottom: 30px;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container .statistics-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container .statistics-container .stat {
+  width: calc((100% - 60px) / 3);
+  display: flex;
+  flex-direction: column;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container .statistics-container .stat .stat-number {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  /* or 39px */
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
+}
+.banner-section .banner-content .banner-left .bannerTxt-container .statistics-container .stat .stat-txt {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.99px;
+  line-height: 160%;
+  /* or 38px */
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
+}
+.banner-section .banner-content .banner-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-section .banner-content .banner-right .banner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-section .banner-content .banner-right .banner-card .card-img {
+  width: 510px;
+  height: 401px;
+}
+.banner-section .banner-content .banner-right .banner-card .card-footer {
+  width: 100%;
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  background: #3b3b3b;
+  border-radius: 0px 0px 20px 20px;
+}
+.banner-section .banner-content .banner-right .banner-card .card-footer .footer-heading {
+  margin-bottom: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.banner-section .banner-content .banner-right .banner-card .card-footer .artist-tag {
+  display: flex;
+  align-items: center;
+}
+.banner-section .banner-content .banner-right .banner-card .card-footer .artist-tag .artist-avatar {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+.banner-section .banner-content .banner-right .banner-card .card-footer .artist-tag .artist-name {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+
+.trendingCollection-section {
+  padding: 80px 0;
+}
+.trendingCollection-section .trendingCollection-content .section-heading {
+  margin-bottom: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  /* identical to box height, or 46px */
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
+}
+.trendingCollection-section .trendingCollection-content .section-subHeading {
+  margin-bottom: 60px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+  text-transform: capitalize;
+  /* White */
+  color: #ffffff;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card {
+  width: calc((100% - 60px) / 3);
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .primary-img {
+  margin-bottom: 15px;
+  width: 330px;
+  height: 330px;
+  object-fit: cover;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .secondaryImg-container {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .secondaryImg-container .secondary-img {
+  width: calc((100% - 30px) / 3);
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .secondaryImg-container .full-collection {
+  background: #a259ff;
+  border-radius: 20px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .card-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .card-footer .footer-heading {
+  margin-bottom: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .card-footer .artist-tag {
+  display: flex;
+  align-items: center;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .card-footer .artist-tag .artist-avatar {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+.trendingCollection-section .trendingCollection-content .collectionCards-container .collection-card .card-footer .artist-tag .artist-name {
+  flex-grow: 1;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=home.css.map */

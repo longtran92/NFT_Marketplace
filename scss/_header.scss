@@ -1,0 +1,71 @@
+@charset 'utf-8';
+@use "common";
+@use "fonts";
+@use "mixins";
+@use "variables";
+
+// MAIN HEADER
+
+.main-header {
+  padding: 20px 0;
+  background: #2b2b2b;
+  &__container {
+    min-width: 1180px;
+    max-width: 1180px;
+    margin: 0 auto;
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logo-container {
+        display: flex;
+        align-items: center;
+        svg {
+          margin-right: 12px;
+        }
+        .logo-txt {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 140%;
+          /* identical to box height, or 31px */
+
+          text-align: center;
+          text-transform: capitalize;
+
+          color: #ffffff;
+        }
+      }
+      .main-nav {
+        max-width: 607px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav-links {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .link-item {
+            padding: 12px 20px;
+            .link {
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 140%;
+              /* or 22px */
+
+              text-align: center;
+
+              color: #ffffff;
+            }
+          }
+        }
+        .btn-signUp {
+          padding: 20px 30px;
+        }
+      }
+    }
+  }
+}
