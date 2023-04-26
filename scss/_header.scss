@@ -1,18 +1,18 @@
 @charset 'utf-8';
-@use "common";
-@use "fonts";
-@use "mixins";
-@use "variables";
+@import "common";
+@import "fonts";
+@import "mixins";
+@import "variables";
 
 // MAIN HEADER
 
 .main-header {
   padding: 20px 0;
   background: #2b2b2b;
+  position: relative;
   &__container {
-    min-width: 1180px;
-    max-width: 1180px;
-    margin: 0 auto;
+    min-width: 100%;
+    max-width: 100%;
     .header-content {
       display: flex;
       align-items: center;
@@ -42,6 +42,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         .nav-links {
           display: flex;
           align-items: center;
@@ -61,9 +62,31 @@
               color: #ffffff;
             }
           }
+          @include mq(max_sm) {
+            display: none;
+          }
+        }
+        .show {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: #2b2b2b;
         }
         .btn-signUp {
           padding: 20px 30px;
+          @include mq(max_sm) {
+            display: none;
+          }
+        }
+      }
+      .offCanvas-toggle {
+        display: none;
+        cursor: pointer;
+        @include mq(max_sm) {
+          display: block;
         }
       }
     }

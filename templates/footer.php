@@ -5,3 +5,8 @@
     </div>
   </div>
 </footer>
+<!-- FINISHED MAIN FOOTER -->
+
+<!-- JAVASCRIPT -->
+
+<script type="text/javascript" src="js/main.js"></script>

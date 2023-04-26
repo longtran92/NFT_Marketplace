@@ -55,9 +55,21 @@ a {
 }
 
 .container {
-  min-width: 1050px;
-  max-width: 1050px;
+  min-width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
+  padding: 0px 15px;
+
+  @include mq(max_md) {
+    padding: 0px 72px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  @include mq(max_xs) {
+    padding: 0px 30px;
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 
 .list-style-none {
