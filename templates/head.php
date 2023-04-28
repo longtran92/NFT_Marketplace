@@ -8,7 +8,7 @@
   <!-- <link rel='stylesheet' href="css/bootstrap.min.css"> -->
   <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css">
   <link rel=" stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/home-1.css">
+  <link rel="stylesheet" href="css/footer-1.css">
   <title>NFL Marketplace</title>
 </head>
