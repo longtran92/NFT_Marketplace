@@ -101,4 +101,9 @@ a {
   svg {
     margin-right: 12px;
   }
+  @include mq(max_md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
