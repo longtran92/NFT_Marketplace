@@ -9,7 +9,8 @@
         <div class="banner-left">
           <div class="bannerTxt-container">
             <h1 class="banner-heading">Discover digital art & Collect NFTs</h1>
-            <p class="description">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more
+            <p class="description">NFT marketplace UI created with Anima for Figma. Collect, buy and sell
+              art from more
               than 20k NFT artists.</p>
             <div class="banner-card">
               <img src="./images/Homepage/banner.png" alt="" class="card-img">
@@ -132,8 +133,87 @@
           </div>
         </div>
       </div>
+      <h2 class="section-heading">Magic Mashrooms</h2>
+      <button class="btn-primary btn-seeNFT">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M2.83931 6.74556C4.3292 5.25567 6.66714 3.75 10 3.75C13.3329 3.75 15.6708 5.25567 17.1607 6.74556C17.9038 7.4887 18.4397 8.23076 18.7906 8.78809C18.9664 9.06724 19.0966 9.30146 19.184 9.4683C19.2277 9.55176 19.2608 9.61849 19.2835 9.66569C19.2949 9.6893 19.3037 9.70804 19.3099 9.72157L19.3174 9.7379L19.3197 9.74306L19.3206 9.74487L19.3209 9.74558C19.321 9.74588 19.3211 9.74616 18.75 10C19.3211 10.2538 19.321 10.2541 19.3209 10.2544L19.3206 10.2551L19.3197 10.2569L19.3174 10.2621L19.3099 10.2784C19.3037 10.292 19.2949 10.3107 19.2835 10.3343C19.2608 10.3815 19.2277 10.4482 19.184 10.5317C19.0966 10.6985 18.9664 10.9328 18.7906 11.2119C18.4397 11.7692 17.9038 12.5113 17.1607 13.2544C15.6708 14.7443 13.3329 16.25 10 16.25C6.66714 16.25 4.3292 14.7443 2.83931 13.2544C2.09617 12.5113 1.5603 11.7692 1.20939 11.2119C1.03362 10.9328 0.903373 10.6985 0.815984 10.5317C0.772267 10.4482 0.739205 10.3815 0.716476 10.3343C0.705109 10.3107 0.696319 10.292 0.690066 10.2784L0.682582 10.2621L0.680256 10.2569L0.679445 10.2551L0.679127 10.2544C0.678993 10.2541 0.678868 10.2538 1.25 10C0.678868 9.74616 0.678993 9.74588 0.679127 9.74558L0.679445 9.74487L0.680256 9.74306L0.682582 9.7379L0.690066 9.72157C0.696319 9.70804 0.705109 9.6893 0.716476 9.66569C0.739205 9.61849 0.772267 9.55176 0.815984 9.4683C0.903373 9.30146 1.03362 9.06724 1.20939 8.78809C1.5603 8.23076 2.09617 7.4887 2.83931 6.74556ZM1.25 10L0.678868 9.74616C0.607044 9.90777 0.607044 10.0922 0.678868 10.2538L1.25 10ZM1.94882 10C2.02235 10.1377 2.12794 10.3248 2.26718 10.5459C2.58033 11.0433 3.06008 11.7074 3.72319 12.3706C5.0458 13.6932 7.08286 15 10 15C12.9171 15 14.9542 13.6932 16.2768 12.3706C16.9399 11.7074 17.4197 11.0433 17.7328 10.5459C17.8721 10.3248 17.9777 10.1377 18.0512 10C17.9777 9.86227 17.8721 9.67524 17.7328 9.4541C17.4197 8.95674 16.9399 8.29255 16.2768 7.62944C14.9542 6.30683 12.9171 5 10 5C7.08286 5 5.0458 6.30683 3.72319 7.62944C3.06008 8.29255 2.58033 8.95674 2.26718 9.4541C2.12794 9.67524 2.02235 9.86227 1.94882 10ZM18.75 10L19.3211 10.2538C19.393 10.0922 19.393 9.90777 19.3211 9.74616L18.75 10Z"
+            fill="#A259FF" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M10 7.5C8.61929 7.5 7.5 8.61929 7.5 10C7.5 11.3807 8.61929 12.5 10 12.5C11.3807 12.5 12.5 11.3807 12.5 10C12.5 8.61929 11.3807 7.5 10 7.5ZM6.25 10C6.25 7.92893 7.92893 6.25 10 6.25C12.0711 6.25 13.75 7.92893 13.75 10C13.75 12.0711 12.0711 13.75 10 13.75C7.92893 13.75 6.25 12.0711 6.25 10Z"
+            fill="#A259FF" />
+        </svg>
+        See NFT
+      </button>
+    </div>
+    <div class="timeRemaining-card">
+      <span class="heading">Auction ends in:</span>
     </div>
     </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="howItWorks-section">
+    <div class="container">
+      <div class="section-content">
+        <h3 class="section-heading">How It Works</h3>
+        <span class="section-subHeading">Find out how to get started</span>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./images/Homepage/how-it-works/card-1.png" alt="" class="card-img">
+            <div class="txt-container">
+              <h5 class="card-heading">Setup Your wallet</h5>
+              <p class="card-description">Set up your wallet of choice. Connect it to the Animarket by clicking the
+                wallet icon in the top right corner.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/Homepage/how-it-works/card-2.png" alt="" class="card-img">
+            <div class="txt-container">
+              <h5 class="card-heading">Create Collection</h5>
+              <p class="card-description">Upload your work and setup your collection. Add a description, social links
+                and floor price.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/Homepage/how-it-works/card-3.png" alt="" class="card-img">
+            <div class="txt-container">
+              <h5 class="card-heading">Start Earning</h5>
+              <p class="card-description">Choose between auctions and fixed-price listings. Start earning by selling
+                your NFTs or trading others.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsSubscription-section">
+    <div class="container">
+      <div class="subscription-card">
+        <div class="card-left">
+          <img src="./images/Homepage/weekly-update.png" alt="" class="card-img">
+        </div>
+        <div class="card-right">
+          <h3 class="card-heading">Join our weekly digest</h3>
+          <span class="card-description">Get exclusive promotions & updates straight to your inbox.</span>
+          <div class="subscribe-form">
+            <input type="text" placeholder='Enter your email here'>
+            <button class="btn-primary btn-subscribe">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.875 4.375C1.875 4.02982 2.15482 3.75 2.5 3.75H17.5C17.8452 3.75 18.125 4.02982 18.125 4.375V15C18.125 15.3315 17.9933 15.6495 17.7589 15.8839C17.5245 16.1183 17.2065 16.25 16.875 16.25H3.125C2.79348 16.25 2.47554 16.1183 2.24112 15.8839C2.0067 15.6495 1.875 15.3315 1.875 15V4.375ZM3.125 5V15H16.875V5H3.125Z"
+                  fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M2.03928 3.95268C2.27253 3.69823 2.66788 3.68104 2.92233 3.91428L10 10.4021L17.0777 3.91428C17.3321 3.68104 17.7275 3.69823 17.9607 3.95268C18.194 4.20713 18.1768 4.60248 17.9223 4.83573L10.4223 11.7107C10.1834 11.9298 9.81663 11.9298 9.57768 11.7107L2.07768 4.83573C1.82323 4.60248 1.80604 4.20713 2.03928 3.95268Z"
+                  fill="white" />
+              </svg>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
   </section>
 
   <section class="topCreators-section">
@@ -626,7 +706,7 @@
   </section>
 
   <section class="auction-section">
-    <div class="container">
+    <div class="container test">
       <div class="content-wrapper">
         <div class="section-content">
           <div class="nft-summary">
@@ -645,72 +725,6 @@
                   fill="#A259FF" />
               </svg>
               See NFT
-            </button>
-          </div>
-          <div class="timeRemaining-card">
-            <span class="heading">Auction ends in:</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="howItWorks-section">
-    <div class="container">
-      <div class="section-content">
-        <h3 class="section-heading">How It Works</h3>
-        <span class="section-subHeading">Find out how to get started</span>
-        <div class="cards-container">
-          <div class="card">
-            <img src="./images/Homepage/how-it-works/card-1.png" alt="" class="card-img">
-            <div class="txt-container">
-              <h5 class="card-heading">Setup Your wallet</h5>
-              <p class="card-description">Set up your wallet of choice. Connect it to the Animarket by clicking the
-                wallet icon in the top right corner.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/Homepage/how-it-works/card-2.png" alt="" class="card-img">
-            <div class="txt-container">
-              <h5 class="card-heading">Create Collection</h5>
-              <p class="card-description">Upload your work and setup your collection. Add a description, social links
-                and floor price.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/Homepage/how-it-works/card-3.png" alt="" class="card-img">
-            <div class="txt-container">
-              <h5 class="card-heading">Start Earning</h5>
-              <p class="card-description">Choose between auctions and fixed-price listings. Start earning by selling
-                your NFTs or trading others.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="newsSubscription-section">
-    <div class="container">
-      <div class="subscription-card">
-        <div class="card-left">
-          <img src="./images/Homepage/weekly-update.png" alt="" class="card-img">
-        </div>
-        <div class="card-right">
-          <h3 class="card-heading">Join our weekly digest</h3>
-          <span class="card-description">Get exclusive promotions & updates straight to your inbox.</span>
-          <div class="subscribe-form">
-            <input type="text" placeholder='Enter your email here'>
-            <button class="btn-primary btn-subscribe">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M1.875 4.375C1.875 4.02982 2.15482 3.75 2.5 3.75H17.5C17.8452 3.75 18.125 4.02982 18.125 4.375V15C18.125 15.3315 17.9933 15.6495 17.7589 15.8839C17.5245 16.1183 17.2065 16.25 16.875 16.25H3.125C2.79348 16.25 2.47554 16.1183 2.24112 15.8839C2.0067 15.6495 1.875 15.3315 1.875 15V4.375ZM3.125 5V15H16.875V5H3.125Z"
-                  fill="white" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M2.03928 3.95268C2.27253 3.69823 2.66788 3.68104 2.92233 3.91428L10 10.4021L17.0777 3.91428C17.3321 3.68104 17.7275 3.69823 17.9607 3.95268C18.194 4.20713 18.1768 4.60248 17.9223 4.83573L10.4223 11.7107C10.1834 11.9298 9.81663 11.9298 9.57768 11.7107L2.07768 4.83573C1.82323 4.60248 1.80604 4.20713 2.03928 3.95268Z"
-                  fill="white" />
-              </svg>
-              Subscribe
             </button>
           </div>
         </div>
