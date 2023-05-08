@@ -1,0 +1,151 @@
+@charset 'utf-8';
+@import "mixins";
+@import "common";
+@import "fonts";
+@import "variables";
+
+.create-account-section {
+  padding: 100px 0;
+  position: relative;
+  @include mq(max_md) {
+    padding: 80px 0;
+  }
+  @include mq(max_xs) {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: static;
+  }
+  .background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 610px;
+    height: 100%;
+    background-image: url("../images/create-account-page/cover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include mq(max_md) {
+      width: 397px;
+    }
+    @include mq(max_xs) {
+      position: static;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 232px;
+    }
+  }
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .right-content {
+      width: 50%;
+      @include mq(max_xs) {
+        width: 100%;
+      }
+      .form-container {
+        max-width: 460px;
+        @include mq(max_md) {
+          max-width: 100%;
+        }
+        .form-heading {
+          margin-bottom: 20px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 51px;
+          line-height: 110%;
+          /* or 56px */
+          display: flex;
+          align-items: center;
+          text-transform: capitalize;
+          /* White */
+          color: #ffffff;
+        }
+        .description {
+          display: inline-block;
+          margin-bottom: 40px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 160%;
+          /* or 35px */
+
+          text-transform: capitalize;
+
+          /* White */
+
+          color: #ffffff;
+
+          @include mq(max_xs) {
+            margin-bottom: 30px;
+          }
+        }
+        .form {
+          max-width: 330px;
+          @include mq(max_md) {
+            max-width: 100%;
+          }
+          @include mq(max_xs) {
+            max-width: 100%;
+          }
+          .input-container {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            padding: 13px 20px;
+            background: #ffffff;
+            /* Caption & Label Text */
+            border: 1px solid #858584;
+            border-radius: 20px;
+            &:last-of-type {
+              margin-bottom: 30px;
+            }
+
+            svg {
+              margin-right: 12px;
+            }
+            input {
+              flex-grow: 1;
+              border: 0;
+              outline: none;
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 140%;
+              /* or 22px */
+
+              /* Background */
+
+              color: #2b2b2b;
+            }
+          }
+        }
+        .btn-createAccount {
+          width: 100%;
+          padding: 12px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #a259ff;
+          border-radius: 20px;
+          border: none;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 140%;
+          /* or 22px */
+          display: flex;
+          text-align: center;
+          color: #ffffff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

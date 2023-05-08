@@ -1132,6 +1132,7 @@ a {
 }
 
 .auction-section {
+  padding-bottom: 60px;
   background-image: url("../images/Homepage/auction-background.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -1139,7 +1140,11 @@ a {
   position: relative;
   width: 100%;
   height: 640px;
-  border: 1px solid red;
+}
+@media only screen and (max-width: 991px) {
+  .auction-section {
+    height: 630px;
+  }
 }
 .auction-section::before {
   content: "";
@@ -1153,7 +1158,6 @@ a {
   width: 100%;
   height: 100%;
   z-index: 2;
-  border: 2px solid green;
 }
 .auction-section .test {
   position: relative;
@@ -1161,20 +1165,19 @@ a {
 }
 .auction-section .content-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   position: absolute;
   z-index: 100;
   width: 100%;
   height: 100%;
-  border: 3px solid tomato;
   z-index: 3;
 }
 .auction-section .content-wrapper .section-content {
+  width: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  border: 3px solid blue;
 }
 .auction-section .content-wrapper .section-content .nft-summary .artist-card {
   max-width: 151px;
@@ -1216,13 +1219,183 @@ a {
     line-height: 120%;
   }
 }
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card {
+  display: none;
+  width: 295px;
+  height: 144px;
+  padding: 30px;
+  background: rgba(59, 59, 59, 0.5);
+  border-radius: 20px;
+  position: relative;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .backdrop-layer {
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: 2;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .card-content {
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  z-index: 3;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .card-content .heading {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+  /* Text */
+  color: #ffffff;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .card-content .time-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .card-content .time-container .time {
+  display: flex;
+  flex-direction: column;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .card-content .time-container .time .number {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  /* identical to box height, or 46px */
+  text-transform: capitalize;
+  /* Text */
+  color: #ffffff;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .card-content .time-container .time .txt {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+  /* Text */
+  color: #ffffff;
+}
+.auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card .card-content .time-container .divider {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  /* or 39px */
+  text-transform: capitalize;
+  /* Text */
+  color: #ffffff;
+}
+@media only screen and (max-width: 575px) {
+  .auction-section .content-wrapper .section-content .nft-summary .timeRemaining-card {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
 .auction-section .content-wrapper .section-content .nft-summary .btn-seeNFT {
   background: #ffffff;
   color: #2b2b2b;
 }
 .auction-section .content-wrapper .section-content .timeRemaining-card {
+  width: 295px;
+  height: 144px;
+  padding: 30px;
   background: rgba(59, 59, 59, 0.5);
   border-radius: 20px;
+  position: relative;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .backdrop-layer {
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: 2;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .card-content {
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  z-index: 3;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .card-content .heading {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+  /* Text */
+  color: #ffffff;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .card-content .time-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .card-content .time-container .time {
+  display: flex;
+  flex-direction: column;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .card-content .time-container .time .number {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  /* identical to box height, or 46px */
+  text-transform: capitalize;
+  /* Text */
+  color: #ffffff;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .card-content .time-container .time .txt {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+  /* Text */
+  color: #ffffff;
+}
+.auction-section .content-wrapper .section-content .timeRemaining-card .card-content .time-container .divider {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  /* or 39px */
+  text-transform: capitalize;
+  /* Text */
+  color: #ffffff;
+}
+@media only screen and (max-width: 575px) {
+  .auction-section .content-wrapper .section-content .timeRemaining-card {
+    display: none;
+  }
 }
 
 .howItWorks-section {

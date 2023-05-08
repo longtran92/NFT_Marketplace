@@ -134,5 +134,5 @@
 <!-- FINISHED MAIN FOOTER -->
 
 <!-- JAVASCRIPT -->
-
+<script type="text/javascript" src="js/jQuery.js"></script>
 <script type="text/javascript" src="js/main.js"></script>

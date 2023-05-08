@@ -1,7 +1,7 @@
 <header class="main-header">
   <div class="main-header__container">
     <div class="header-content">
-      <a href="#">
+      <a href="index.php">
         <div class="logo-container">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -27,7 +27,7 @@
         <ul class="nav-links">
           <li class="link-item"><a href="#" class="link">Marketplace</a></li>
           <li class="link-item"><a href="#" class="link">Rankings</a></li>
-          <li class="link-item"><a href="#" class="link">Connect a wallet</a></li>
+          <li class="link-item"><a href="/connect-a-wallet.php" class="link">Connect a wallet</a></li>
         </ul>
         <button class="btn-primary btn-signUp">
 
@@ -58,6 +58,7 @@
           d="M3 18C3 17.5858 3.33579 17.25 3.75 17.25H15C15.4142 17.25 15.75 17.5858 15.75 18C15.75 18.4142 15.4142 18.75 15 18.75H3.75C3.33579 18.75 3 18.4142 3 18Z"
           fill="white" />
       </svg>
+
     </div>
   </div>
 </header>

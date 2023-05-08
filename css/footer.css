@@ -51,8 +51,8 @@ a {
 }
 
 .container {
-  min-width: 1170px;
-  max-width: 1170px;
+  min-width: 1050px;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 0px 15px;
 }
@@ -157,6 +157,7 @@ a {
   font-display: swap;
 }
 .main-footer {
+  background-color: #3b3b3b;
   padding: 40px 0;
 }
 .main-footer .footer-content .main-content {
@@ -367,4 +368,4 @@ a {
   color: #cccccc;
 }
 
-/*# sourceMappingURL=footer-1.css.map */
+/*# sourceMappingURL=footer.css.map */

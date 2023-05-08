@@ -51,21 +51,21 @@ a {
 }
 
 .container {
-  min-width: 1170px;
-  max-width: 1170px;
+  min-width: 1050px;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 @media only screen and (max-width: 991px) {
   .container {
-    padding: 0px 8px;
+    padding: 0px 72px;
     min-width: 100%;
     max-width: 100%;
   }
 }
 @media only screen and (max-width: 575px) {
   .container {
-    padding: 0px 8px;
+    padding: 0px 30px;
     min-width: 100%;
     max-width: 100%;
   }
@@ -98,6 +98,13 @@ a {
 }
 .btn-primary svg {
   margin-right: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @font-face {
@@ -205,7 +212,7 @@ a {
   text-align: center;
   color: #ffffff;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .main-header__container .header-content .main-nav .nav-links {
     display: none;
   }
@@ -222,7 +229,7 @@ a {
 .main-header__container .header-content .main-nav .btn-signUp {
   padding: 20px 30px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .main-header__container .header-content .main-nav .btn-signUp {
     display: none;
   }
@@ -231,10 +238,14 @@ a {
   display: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .main-header__container .header-content .offCanvas-toggle {
     display: block;
+    position: absolute;
+    top: 10;
+    right: 0;
+    z-index: 3;
   }
 }
 
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=header-1.css.map */
